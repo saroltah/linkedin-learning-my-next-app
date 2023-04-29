@@ -4,8 +4,9 @@ import { contacts } from "./contacts";
 export default function showDetails() {
   const router = useRouter();
   const contactDetails = router.query.contactDetails;
+  console.log(router.query.contactDetails);
   const selectedContact = contacts.find(
-    (contact) => (contact.id = contactDetails)
+    (contact) => contact.id === contactDetails
   );
   return (
     <>

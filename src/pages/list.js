@@ -8,7 +8,7 @@ export default function ShowList() {
         {contacts.map((contact, index) => {
           return (
             <li key={index}>
-              <Link href={`./contacts/${contact.id}`}> {contact.name}</Link>
+              <Link href={`${contact.id}`}> {contact.name}</Link>
             </li>
           );
         })}
