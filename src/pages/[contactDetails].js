@@ -10,6 +10,11 @@ export default function showDetails() {
   );
   return (
     <>
+      <a href="#" onClick={() => router.back()}>
+        Go back
+      </a>
+      <br />
+      <br />
       <ul>
         <li>{selectedContact?.name}</li>
         <li>{selectedContact?.about}</li>
