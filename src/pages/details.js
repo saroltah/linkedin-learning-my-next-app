@@ -1,18 +1,22 @@
 export const details = [
   {
     id: "react",
-    about: "This is react page",
+    about: "aaaaaaaaaaaaaaa",
+    number: 1,
   },
   {
     id: "next",
-    about: "This is next page",
+    about: "bbbbbbbbbbbbbb",
+    number: 2,
   },
   {
     id: "vue",
-    about: "This is vue page",
+    about: "ccccccccccccccccc",
+    number: 3,
   },
   {
     id: "html",
-    about: "This is HTML page",
+    about: "ddddddddddd",
+    number: 4,
   },
 ];
