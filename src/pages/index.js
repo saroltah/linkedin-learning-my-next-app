@@ -1,10 +1,13 @@
 import Link from "next/link";
-import { list } from "./list";
-export default function Menu() {
+import Layout from "./Layout";
+
+export default function List() {
   return (
     <>
-      <Link href="#">Home</Link>
-      <Link href="./list">Contacts</Link>
+      <Layout>
+        <Link href="#">Home</Link>
+        <Link href="./list">Contacts</Link>
+      </Layout>
     </>
   );
 }
